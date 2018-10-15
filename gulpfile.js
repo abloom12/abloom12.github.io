@@ -5,8 +5,6 @@ const $ = require('gulp-load-plugins')({
   scope: ['devDependencies']
 });
 
-//const bs = $.browsersync.create();
-
 gulp.task('scss', () => {
   const plugins = [
     $.autoprefixer(),
