@@ -1,0 +1,11 @@
+<timeclock id="dashtimeclockwidget" class='dash-widget roundededge5' onClick='popTimeClock(event);'>
+    <p class="dash-widget__header">Employee Day Service Time Clock</p>
+    <div class="dash-widget__body">
+        <alerttimestamp id='alerttimestamp' class='alerttimestamp'>&nbsp;</alerttimestamp>
+        <div id='clockbutton' class='clockbutton' onclick='punchClock();'>
+            <p id='clockbuttontext' class='clockbuttontext'>Clock Out</p>
+        </div>
+        <timeclockdropdown id='timeclockdropdown' class='timeclockdropdown defaultDropdown'></timeclockdropdown>
+    </div>
+    <p class="dashboarderror" style="display:none">Please notify Customer Service that there was a problem with this widget.</p>
+</timeclock>

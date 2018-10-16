@@ -1,0 +1,8 @@
+﻿.waitingCursor{
+    cursor: wait  !important;
+}
+
+.waitingUnclickable{
+    pointer-events: none;
+    cursor: pointer  !important;
+}

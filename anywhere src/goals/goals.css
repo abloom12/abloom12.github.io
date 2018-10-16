@@ -1,0 +1,1747 @@
+﻿.goalscard {
+    position:relative;
+    display:block;
+    float:left;
+    /*width:450px;*/
+    /*min-height:400px;*/
+    width:600px;
+    height:226px;
+    border:0 solid #d7d7d7;
+    background:#2d77a3;
+    margin:10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    max-height: 226px;
+    min-height: 226px;
+/* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:horizontal;
+    -ms-flex-align:baseline;
+/* Firefox */
+    display:-moz-box;
+    -moz-box-orient:horizontal;
+    -moz-box-pack:horizontal;
+    -moz-box-align:baseline;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:horizontal;
+    -webkit-box-align:baseline;
+/* W3C */
+    display:box;
+    box-orient:horizontal;
+    box-pack:horizontal;
+    box-align:baseline;
+}
+
+.goalsleft {
+    position:relative;
+    display:block;
+    width:140px;
+    /*min-height:250px;*/
+    /*min-height:430px;*/
+    border:0 solid #07d7d7;
+}
+
+.goalslefttop {
+    position:relative;
+    display:block;
+    background:#2d77a3;
+    width:140px;
+    /*height:130px;*/
+    height:140px;
+    border:2px solid #70b1d8;
+    margin:0 0 3px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+.goalsleftbottom {
+    position:relative;
+    display:block;
+    background:#2d77a3;
+    width:140px;
+    border:2px solid #70b1d8;
+    margin:6px 0 0;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    /*height:105px;*/
+    height:117px;
+}
+
+.goalsleftmiddle{
+    position:relative;
+    display:block;
+    background:#2d77a3;
+    width:140px;
+    border:2px solid #70b1d8;
+    margin:6px 0 0;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    /*height: 135px;*/
+    height: 145px;
+}
+
+.trendschart {
+    position:relative;
+    display:block;
+    top:10px;
+}
+
+.goalsheaderbox {
+    position:relative;
+    display:block;
+    background:#70b1d8;
+    width:140px;
+    border-bottom:2px solid #cfe371;
+    height:18px;
+}
+
+.goalsrightheaderbox {
+    position:relative;
+    display:block;
+    background:#70b1d8;
+    border-bottom:2px solid #cfe371;
+    margin-bottom:4px;
+}
+
+.goalsrightheaderbox2 {
+    position:relative;
+    display:block;
+    overflow:hidden;
+    /*width:450px;*/
+    width:600px;
+    height:23px;
+/* background: #70b1d8; */
+/* background: #cfe371; */
+    border-bottom:2px solid #cfe371;
+    -webkit-border-radius:5px 5px 0 0;
+    -moz-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+}
+
+.goalsdetailsbox {
+    position:relative;
+    display:block;
+    /*width:298px;*/
+    /*height:130px;*/
+    width:448px;
+    height:140px;
+    border:2px solid #70b1d8;
+    -webkit-border-radius:5px 5px 0 0;
+    -moz-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+    z-index: 2;
+}
+
+.goalsflipbox {
+    position:relative;
+    display:block;
+    background-image:url(../Images/new-icons/whitearrow.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    text-align:right;
+    vertical-align:top;
+    background-color:#70b1d8;
+    /*width:298px;*/    
+    height:20px;
+    border:2px solid #70b1d8;
+    margin:5px 0 0;
+    width:19px;
+    float:right;
+    margin-right: 7px;
+}
+
+.goalsarrowtext {
+    position:relative;
+    display:block;
+    left:0;
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-size:12pt;
+    font-style:normal;
+    font-weight:400;
+    margin:0 35px 0 0;
+}
+
+.goalsspacer {
+    width:1px;
+    height:10px;
+}
+
+.goalsheadertext {
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-size:10pt;
+    text-transform:uppercase;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:400;
+    padding-left:5px;
+    padding-top:2px;
+}
+
+.goalsheadertext2 {
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-size:8pt;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:400;
+    padding-left:5px;
+    overflow:hidden;
+}
+
+.goalsheadertextbonus {
+    display:inline-block;
+    position:relative;
+    width:100px;
+}
+
+.goalsdetailtext {
+    display:block;
+    color:#CCC;
+    font-family:helvetica,arial,sans-serif;
+    font-size:11pt;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:400;
+    padding:4px 0 0 4px;
+}
+
+.goalsdetailsbox {
+    overflow:auto;
+}
+
+.knobcenter {
+    position:relative;
+    display:block;
+    top:-185px;
+    left:22px;
+    width:52px;
+    height:54px;
+    border:0 solid #F0F;
+    -webkit-border-radius:99px 99px 99px 99px;
+    -moz-border-radius:99px;
+    border-radius:99px 99px 99px 99px;
+}
+
+.knobbsmall {
+    font-size:10pt
+}
+
+.knobbsmall2 {
+    font-size: 13pt;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+.knobbbig {
+    position:relative;
+    display:block;
+    padding-top:14px;
+    font-size:14pt
+}
+/*Added below for when two digit numbers are inside the knobb on front of goal card*/
+.knobbbig2 {
+    position:relative;
+    display:block;
+    padding-top:18px;
+    font-size:11pt;
+    right: 4px;
+}
+
+.knobbbig3 {
+    position:relative;
+    display:block;
+    padding-top:18px;
+    font-size:10pt
+}
+
+.knobbsmall3 {
+    font-size: 12pt;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+.knobbsmall4 {
+    font-size: 11pt;
+    padding-left: 0px;
+    padding-right: 4px;
+}
+/*-------------------------*/
+
+.goalsknobbox {
+    position:relative;
+    display:block;
+    top:12px;
+    left:20px;
+    width:100px;
+    height:90px
+}
+
+.attemptschart {
+    position:relative;
+    display:block;
+    top:10px;
+    left:4px
+}
+
+.lastactivity {
+    position:relative;
+    display:block;
+    bottom:5px;
+    left:6px;
+    color:#CCC;
+    font-size:11pt;
+    padding-left:4px;
+}
+
+.successes {
+    position:relative;
+    display:block;
+    color:#CCC;
+    font-size:11pt;
+    margin:2px;
+    padding-left:4px;
+    left:6px;
+}
+
+.methodsuccesses {
+    font-weight:700;
+    padding-top:10px;
+}
+
+.methodactivitysuccess {
+    color:EEEEEE;
+    font-weight:700;
+    margin-bottom:0px;
+}
+
+.methodactivitysuccesssmall {
+    margin-top:1px;
+    margin-bottom:0px;
+}
+
+.goalsright {
+    position:relative;
+    display:block;
+    /*width:302px;*/    
+    /*min-height:260px;*/
+    width:448px;
+    height:140px;
+    margin:0 0 5px 8px;
+    border:0 solid #d707d7
+}
+
+.methodbox {
+    position:relative;
+    display:block;
+    width:286px;
+    min-height:108px;
+    /*min-height:98px;*/
+    margin:0;
+    padding:5px;
+    border:2px solid #70b1d8;
+    margin:4px 0 0;
+    /*max-height:98px;*/
+    max-height:108px;
+    overflow:auto;
+    z-index: 2;
+}
+
+.methodseccess {
+    color:EEEEEE;
+    font-weight:700
+}
+
+.prompt-picker .selected {
+    background-color:#a9d0e7
+}
+
+.result-picker .selected {
+    background-color:#a9d0e7
+}
+
+.attempt-picker item {
+    color:#fff;
+    text-align:center;
+    font-size:12px
+}
+
+.attempt-picker .selected {
+    background-color:#a9d0e7
+}
+
+picker-accordion {
+    cursor:pointer
+}
+
+picker-accordion item {
+    line-height:22px;
+    display:block;
+    float:left;
+    height:22px;
+    width:22px;
+    overflow:hidden;
+    background-color:#70b1d8;
+    margin-right:2px;
+    border-radius:20px 20px 20px 20px
+}
+
+picker-accordion item section {
+    margin-left:7px;
+    color:#fff;
+    font-family:helvetica,arial,sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-wrap:none;
+    font-size:12px
+}
+
+picker-single {
+    display:block;
+    cursor:pointer
+}
+
+picker-single item {
+    line-height:25px;
+    text-align:center;
+    float:left;
+    display:block;
+    border:0 solid #e1eff7;
+    font-weight:700;
+    color:#fff;
+    background-color:#70b1d8;
+    width:22px;
+    height:22px;
+    margin-right:2px;
+    -webkit-border-radius:99px;
+    -moz-border-radius:99x;
+    border-radius:99px
+}
+
+/* main size */
+.flip {
+    float:left;
+    -webkit-perspective:800px;
+    /*width:460px;*/
+    width:600px;
+    /*height:400px;*/
+    height:230px;
+    /*margin:10px 5px 15px;*/
+    margin:10px 5px 40px;
+    z-index: 1;
+}
+
+.flip .card.flipped {
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    -o-transform:rotateY(-180deg);
+    transform:rotateY(-180deg)
+}
+
+.flip .card.flippedback {
+/* -webkit-transform: rotateY(180deg); */
+}
+
+.flip .card {
+    -webkit-transform-style:preserve-3d;
+    -webkit-transition:.5s;
+    transform-style:preserve-3d;
+    transition:.5s;
+}
+
+.flip .card .face {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    z-index: 2;
+}
+
+.flip .card .front {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    border: 0 solid #d7d7d7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    z-index: 4;
+}
+
+.flip .card .back {
+    -webkit-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+    background:#2d77a3;
+    border:0 solid #cfe371;
+    display:block;
+    width:600px;
+    margin-left: -10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    z-index:3;
+    max-height: 226px;
+    min-height: 226px;
+}
+
+.flip .card .forceflip{
+    display: none;
+}
+
+.resultsbase {
+    background-repeat:no-repeat;
+    width:206px
+}
+
+.result1 {
+    background-image:url(./Images/new-icons/result1.png)
+}
+
+.result2 {
+    background-image:url(./Images/new-icons/result1.png)
+}
+
+.result3 {
+    background-image:url(./Images/new-icons/result1.png)
+}
+
+.result4 {
+    background-image:url(./Images/new-icons/result1.png)
+}
+
+.result5 {
+    background-image:url(./Images/new-icons/result1.png)
+}
+
+.result6 {
+    background-image:url(./Images/new-icons/result1.png)
+}
+
+.resultsbox {
+    display:block;
+    position:relative;
+    padding:10px 10px 0 30px
+}
+
+.goalstoolbar {
+    background:#70b1d8;
+    padding:8px 8px 0;
+    /*height:40px;*/
+    height: 66px;
+    width: 356px;
+    overflow-x:auto;
+    border: 2px solid #2d77a3;
+    border-radius: 20px 20px 20px 20px;
+
+/* Firefox */
+    display:-moz-box;
+    -moz-box-orient:horizontal;
+    -moz-box-pack:horizontal;
+    -moz-box-align:baseline;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:horizontal;
+    -webkit-box-align:baseline;
+/* W3C */
+    display:box;
+    box-orient:horizontal;
+    box-pack:horizontal;
+    box-align:baseline
+}
+
+
+.goalshistfadeffect {
+    -webkit-animation:fade 2s;
+    -webkit-animation-fill-mode:both
+}
+
+@-webkit-keyframes fade {
+0% {
+    background-color:#2d77a3
+}
+
+40% {
+    background-color:#cfe371
+}
+
+100% {
+    background:#2d77a3
+}
+}
+
+.goalshistfadineffect {
+    -webkit-animation:shiftin 2s;
+    -webkit-animation-fill-mode:both
+}
+
+@-webkit-keyframes shiftin {
+0% {
+    opacity:0;
+    width:0
+}
+
+50% {
+    width:64px
+}
+
+100% {
+    opacity:1
+}
+}
+
+.goalshistfadouteffect {
+    -webkit-animation:fadeout .5s;
+    -webkit-animation-fill-mode:both
+}
+
+@-webkit-keyframes fadeout {
+0% {
+    opacity:1
+}
+
+100% {
+    opacity:0;
+    width:0;
+    display:none
+}
+}
+
+.goalsprompt1 {
+    display:block;
+    position:relative;
+    background:#2d77a3;
+    height:30px;
+    width:30px;
+    /*height:45px;
+    width:45px;*/
+    margin:2px 3px 0 2px;
+    padding:0;
+    border-radius:100%;
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%
+}
+
+.goalshist {
+    min-width: 53px;
+    display:block;
+    position:relative;
+    height:30px;
+    border-bottom:2px solid #70b1d8;
+    margin:0 10px 0 0;
+    /*margin:10px 10px 0 0;*/
+/* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:horizontal;
+    -ms-flex-align:baseline;
+/* Firefox */
+    display:-moz-box;
+    -moz-box-orient:horizontal;
+    -moz-box-pack:horizontal;
+    -moz-box-align:baseline;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:horizontal;
+    -webkit-box-align:baseline;
+/* W3C */
+    display:box;
+    box-orient:horizontal;
+    box-pack:horizontal;
+    box-align:baseline
+}
+
+.goalhistselected {
+    background-color:#81bac6;
+    border-bottom:2px solid #cfe371;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px
+}
+
+.prompttext {
+    color:#fff;
+    cursor:pointer;
+    font-family:helvetica,arial,sans-serif;
+    font-size:10pt;
+    margin:0;
+    text-transform:uppercase;
+    text-decoration:none
+}
+
+.prompttext img{
+    width:10px;
+}
+
+.goalTrash {
+    display:none;
+    /*position:relative;*/
+    position:fixed;
+    right:24px;
+
+    border:3px solid #70b1d8;
+    width:38px;
+    height:38px;
+    background-size:44px;
+/*#cfe371; */
+    background-image:url(/webroot/Images/new-icons/selected_trash2.png);
+    /*margin:0 0 16px 24px;*/
+    margin:10px 0 16px 24px;
+}
+
+.goalNew {
+    display:none;
+    position:fixed;
+    border:3px solid #70b1d8;
+    background-image:url(/webroot/Images/new-icons/makenew.png);
+    margin:0 0 4px 20px;
+    right:24px;
+    top:82px;
+    width:38px;
+    height:38px;
+    background-size:44px;
+}
+
+.newGoalCardText {
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-size:7pt;
+    text-transform:uppercase;
+    float:right;
+    display:none;
+    margin-right:32px;
+    margin-top:52px;
+}
+
+.goalCardDeleteText {
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    /*font-size:7pt;*/
+    font-size:10pt;
+    text-transform:uppercase;
+    float:right;
+    /*margin-top:0px;*/
+    margin-top: 50px;
+    display:none;
+    /*margin-right:8px;*/
+    margin-right: 18px;
+}
+
+.goalsprompttext {
+    color:#fff;
+    cursor:pointer;
+    font-family:helvetica,arial,sans-serif;
+    font-size:18pt;
+    /*font-size:28pt;*/
+    font-weight:700;
+    text-transform:uppercase;
+    text-align:center
+}
+
+.goalsnotes {
+    display:block;
+    position:relative;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5x;
+    border-radius:5px;
+    height:60px;
+    /*width:345px;*/
+    border:0 solid #cfe371;
+    /*margin:40px 0 0 30px;*/
+    margin:10px 0 0 30px;
+/* Internet Explorer 10 */
+
+/* Firefox */
+    display:-moz-box;
+    -moz-box-orient:horizontal;
+    -moz-box-pack:horizontal;
+    -moz-box-align:baseline;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+    -webkit-box-pack:horizontal;
+    -webkit-box-align:baseline;
+/* W3C */
+    display:box;
+    box-orient:horizontal;
+    box-pack:horizontal;
+    box-align:baseline
+}
+
+.goalsnotesimage {
+    display:inline-block;
+    position:relative;
+    background:#70b1d8;
+    top:0px;
+    background-image:url(../Images/new-icons/notes.png);
+    height:60px;
+    width:30px;
+    -webkit-border-radius:5px 0 0 5px;
+    -moz-border-radius:5px 0 0 5px;
+    border-radius:5px 0 0 5px
+}
+
+textarea {
+    border:none
+}
+
+.goalsnote {
+    display:inline-block;
+    position:relative;
+    resize:none;
+    height:56px;
+    /*width:309px;*/
+    width:368px;
+    border:0 soild #999;
+    -webkit-border-radius:0 5px 5px 0;
+    -moz-border-radius:0 5px 5px 0;
+    border-radius:0 5px 5px 0
+}
+
+.goalsnote:focus {
+    outline:none!important
+/* try to avoid using css bang, instead use jquery to remove or add onFocus */
+}
+
+.Sublocationbox {
+    /*display:block;*/
+    display:inline-block;
+    position:relative;
+    /*padding:10px 10px 0 30px*/
+    padding-top:10px;
+}
+
+.goalsubloction {
+    min-height: 14px;
+    width:150px;
+    position:relative;
+    background:#70b1d8;
+    z-index:0;
+    color:#fff;
+    cursor:pointer;
+    font-family:helvetica,arial,sans-serif;
+    border-radius:20px 20px 20px 20px;
+    display:inline-block;
+    padding:2px 20px;
+    margin-left: -2px;
+    /*margin:0 0 0 10px;*/
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:12px;
+    background-clip:padding-box;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+#goalssublocation {
+    padding-left:24px;
+}
+
+#goalslocation {
+    padding-left:24px;
+}
+
+#resultsbox {
+    padding-left:24px;
+}
+
+#notes {
+    margin-left:24px;
+}
+
+.goalslocationpop {
+    display:none;
+    /*top:110px;*/
+    /*left:116px;*/
+    top:56px;
+    left:6px;
+    max-height:172px;
+}
+
+.secondarylocationpop {
+    display:none;
+    /*top:144px;*/
+    /*left:116px;*/
+    top:60px;
+    left:218px;
+    overflow:auto;
+    max-height:200px;
+}
+
+.secondarylocationpopbase {
+    position:absolute;
+    background:#509fd0;
+    border:10px solid #84bdde;
+/* #f13c6e; pink */
+    min-width:190px;
+    z-index:8;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding:10px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px
+}
+
+.goalsLink {
+    border-radius:20px;
+    list-style:none;
+    background:#21597b;
+    border:2px solid #cfe371;
+    margin-bottom:10px;
+    padding-top:10px;
+    padding-bottom:5px;
+    font-size:12px;
+    color:#fff;
+    display:block;
+    cursor:pointer;
+    text-decoration:none;
+    font-family:helvetica,arial,sans-serif;
+    text-transform:uppercase;
+    text-align:center
+}
+
+.resultserrorbox {
+    display:none;
+    position:absolute;
+    margin:2px 0 0 -24px;
+    background-image:url(../Images/new-icons/icon_error.png);
+    height:20px;
+    width:20px
+}
+
+.resultserrorboxdailygoals {
+    background-image:url(../Images/new-icons/icon_error.png);
+    background-repeat: no-repeat;
+    background-position-x: 88%;
+    background-position-y: 50%;
+}
+
+.noteserrorbox {
+    display:none;
+    position:fixed;
+    margin:20px 0 0 -24px;
+    background-image:url(../Images/new-icons/icon_error.png);
+    height:20px;
+    width:20px
+}
+
+.right-side {
+    background:url(/webroot/Images/thumpsup.png) no-repeat;
+    /*width:50%;
+    height:400px;*/
+    background-size: contain;
+    width: 400px;
+    height: 300px;
+    position:relative;
+    left:50%
+}
+
+.headline {
+    font:24pt helvetica,arial,sans-serif
+}
+
+.rosterhelpright {
+    top:60px;
+    /*right: -10px;*/
+    right: 24px;
+    width:200px;
+    height:25px;
+    z-index: 2;
+}
+
+.helpheader {
+    font:12pt helvetica,arial,sans-serif;
+}
+
+.left-side .helptext {
+    position: static;
+}
+
+#locationhelp .helptext {
+    font:10pt helvetica,arial,sans-serif;
+    position: inherit;
+    top: 11px;
+}
+
+.helptext {
+    font:10pt helvetica,arial,sans-serif;
+    position: static;
+    top: 10px;
+}
+
+.hrhelp {
+    border:0;
+    height:1px;
+    background:#f89ab5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hrtriangleright {
+    display:block;
+    opacity:0;
+    position:absolute;
+    top:63px;
+    /*right: -28px;*/
+    right: 5px;
+    z-index: 1;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:25px 0 25px 25px;
+    border-color:transparent transparent transparent #f89ab5
+}
+
+.hrtriangleleft {
+    display:block;
+    opacity:0;
+    position:absolute;
+    /*top:20px;*/
+    top:92px;
+    left:0;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:25px 25px 25px 0;
+    border-color:transparent #f89ab5 transparent transparent
+}
+
+.helpfadeinslow {
+    -webkit-animation:fadein 2s;
+    -webkit-animation-fill-mode:both;
+    animation:fadein 2s;
+    animation-fill-mode:both
+}
+
+.noOutcomesMessageBox {
+    height:72px;
+}
+
+.noOutcomesMessageBoxTwo {
+    height:45px;
+}
+
+center{
+    padding-right:7px;
+}
+
+@-webkit-keyframes fadein {
+/* this is timmed to no do anything for a 1 second, then fade in */
+0% {
+    opacity:0
+}
+
+50% {
+    opacity:0
+}
+
+100% {
+    opacity:1
+}
+}
+
+@keyframes fadein {
+/* this is timmed to no do anything for a 1 second, then fade in */
+0% {
+    opacity:0
+}
+
+50% {
+    opacity:0
+}
+
+100% {
+    opacity:1
+}
+}
+
+@-webkit-keyframes rosterstrobeeffect {
+/* this is timed to no do anything for a 1 second, then fade in */
+0% {
+    border:3px solid #cfe371
+}
+
+50% {
+    border:3px solid #f13c6e
+}
+
+100% {
+    border:3px solid #cfe371
+}
+}
+
+@keyframes rosterstrobeeffect {
+/* this is timmed to no do anything for a 1 second, then fade in */
+0% {
+    border:3px solid #cfe371
+}
+
+50% {
+    border:3px solid #f13c6e
+}
+
+100% {
+    border:3px solid #cfe371
+}
+}
+
+.goalline {
+    display:inline-block;
+    position:relative;
+    top:6px;
+    left:16px;
+    width:98%;
+    height:20px;
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-size:14pt;
+    font-style:normal;
+    font-weight:400;
+    margin:5px 0;
+    padding:0 0 8px 5px;
+/* background: #2d77a3; */
+    border-bottom:2px solid #cfe371
+}
+
+#dayBackDisplay {
+    display:inline-block;
+    position:relative;
+    top:6px;
+    left:16px;
+    width:98%;
+    height:20px;
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-style:normal;
+    margin:5px 0;
+    padding:0 0 0px 5px;
+}
+
+.activitybyname{
+    padding-left:26px;
+    padding-top: 4px;
+    color: #fff;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 10pt;
+}
+
+.goalfilterpop {
+    background:#509fd0;
+    border:10px solid #84bdde;
+    width:220px;
+    z-index:8;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding:15px;
+    padding-bottom:0;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    left:220px;
+    top:83px;
+    height:170px;
+    position:absolute;
+    display:none
+}
+
+.goalfilterpop a {
+    border-radius:20px;
+    list-style:none;
+    background:#21597b;
+    border:2px solid #cfe371;
+    margin-bottom:15px;
+    font-size:12px;
+    color:#fff;
+    display:block;
+    padding:3px 15px;
+    padding-left:3px;
+    cursor:pointer;
+    text-decoration:none;
+    font-family:helvetica,arial,sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    overflow:hidden;
+    line-height:30px
+}
+
+.goaloccurancefilterpop {
+    background:#509fd0;
+    border:10px solid #84bdde;
+    width:220px;
+    z-index:8;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding:15px;
+    padding-bottom:0;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    left:460px;
+    top:83px;
+    height:170px;
+    position:absolute;
+    display:none
+}
+
+.goaloccurancefilterpop a {
+    border-radius:20px;
+    list-style:none;
+    background:#21597b;
+    border:2px solid #cfe371;
+    margin-bottom:15px;
+    font-size:12px;
+    color:#fff;
+    display:block;
+    padding:3px 15px;
+    padding-left:3px;
+    cursor:pointer;
+    text-decoration:none;
+    font-family:helvetica,arial,sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    overflow:hidden;
+    line-height:30px
+}
+
+.goalsfilterbox2 {
+    display:block;
+    position:relative;
+    top:0;
+    left:0;
+    height:48px;
+    width:180px;
+    background:#ccc;
+    margin-bottom:0;
+    margin-top:0;
+    margin-left:-20px;
+    margin-right:10px;
+    text-align:center;
+    vertical-align:middle;
+    -webkit-border-radius:0 10px 10px 0;
+    -moz-border-radius:0 10px 10px 0;
+    border-radius:0 10px 10px 0
+}
+
+#goalsfiltertext {
+    font-size:22px;
+    text-align: left;
+}
+
+#goalsoccurancefiltertext {
+    font-size:21px;
+    text-align: left;
+}
+
+.goalsavedbox {
+    display:inline-block;
+    position:relative;
+    top: 10px;
+    right: 45px;
+    font-size:12px;
+    color:#fff;
+    font-family:helvetica,arial,sans-serif;
+    text-align:center;
+    overflow:hidden;
+    float:right;
+    /*width:48px*/
+}
+
+.goalsavebutton {
+    width:20px;
+    float:right;
+    position:relative;
+    /*margin-top:12px;*/
+    /*margin-top:4px;*/
+    margin-top:-10px;
+    margin-bottom:0;
+    margin-right:17px;
+    border:3px solid #84bdde;
+/* #cfe371; green */
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    background-color:#509fd0;
+/* #afc62a; green */
+    min-width:110px;
+    text-align:center;
+    display:none;
+}
+
+.goalsavebuttontext {
+    position:relative;
+    font-family:helvetica,arial,sans-serif;
+    font-size:12px;
+    color:#fff;
+    text-transform:uppercase;
+/*margin: 20px;*/
+    cursor:pointer;
+    /*padding-left:*/
+}
+
+.idnotlinkedtogoal {
+    opacity:.2;
+    pointer-events: none;
+    cursor:default;
+}
+
+.notselectedbuthasgoals
+{
+    opacity: .9;
+}
+
+.smallconsumerbodybox {
+    height:5px;
+}
+
+#datebox2 {
+    width: 160px;
+}
+
+#goalsdatebox{
+    cursor: pointer;
+    width: 100%;
+    left: 6px;
+    background-color: #cccccc;
+    border: none;
+    font-size: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.currentConsumerDisplayName{
+    color:#FFF;
+    font-size:12px;
+    text-align:left;
+    margin-top:18px;
+    padding-left:6px;
+}
+
+.currentConsumerDisplayName p{
+    margin-top:5px;
+}
+
+
+.blowupwindow{
+    overflow: scroll;
+    position: fixed;
+    left: 115px;
+    top: 117px;
+    background: #2d77a3;
+    border: 10px solid #84bdde;
+    min-width: 190px;
+    z-index: 8;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #E0E0E0;
+    text-align: left;
+}
+
+
+#blowuptextarea{
+  float: left;
+  resize: none;
+  width: 500px;
+  height: 284px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /*pointer-events: none;*/
+  padding: 5px;
+  overflow-y: scroll;
+}
+/*IE CSS*/
+
+/*---------------------IE11----------------------*/
+.ie11 #goalsdatebox
+{
+    margin-left: 22px;
+}
+
+.ie10 .goalsnotesimage {
+    top: 5px;
+}
+
+.ie11 .goalsnotesimage {
+    top: 5px;
+}
+
+
+.ie10 .goalTrash {
+    position: absolute;
+    /*top: 7px;
+    right: -60px;*/
+}
+
+.ie11 .goalTrash {
+    position: absolute;
+    /*top: 7px;
+    right: -60px;*/
+}
+
+.ie10 .goalNew {
+    position: absolute;
+}
+
+.ie11 .goalNew {
+    position: absolute;
+}
+
+.ie10 .goalsnote {
+    height: 58px;
+}
+
+.ie11 .goalsnote {
+    height: 58px;
+}
+
+.ie10 .noteserrorbox {
+    margin: 23px 0 0 -22px;
+    position: absolute;
+}
+
+.ie11 .noteserrorbox {
+    margin: 23px 0 0 -22px;
+    position: absolute;
+}
+
+
+/* Internet Explorer 10 */
+.ie10 .goalstoolbar {
+    display: -ms-flexbox;
+    -ms-flex-pack: horizontal;
+    -ms-flex-align: baseline;
+}
+
+
+.ie11 .goalshist {
+    float:left;
+    padding-bottom: 8px;
+}
+
+.goalscilabels{
+    margin-left: 24px;
+}
+
+.goalscielement
+{
+    /*display: inline-block;*/    
+    background: #70b1d8; /* #F13C6E; */
+    z-index: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;    
+    border-radius: 20px 20px 20px 20px;
+    padding: 2px 8px 2px 8px;
+    /*margin: 5px 10px 5px 10px;*/
+    background-clip: padding-box; 
+}
+
+.goalscistart{
+    margin-left: 28px;
+    display: inline-block;
+    width: 76px;
+    /*display: none;*/
+}
+
+.goalsciend {
+    margin-left: 14px;
+    display: inline-block;
+    width: 76px;
+    /*display: none;*/
+}
+
+#goalsciboxes{
+    margin-top:4px;
+}
+
+.goalsheadertextendtime {
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-size:10pt;
+    text-transform:uppercase;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:400;
+    margin-left: 10px;
+}
+
+.goalscidropdown{
+    /*margin-left: 244px;*/
+    width: 200px;
+    /*display: block;*/
+    display: inline-grid;
+    overflow: hidden;
+    height: 15px;
+    margin-top: -18px;
+    margin-left: 15px;
+}
+
+#goalscistarttimelabel{
+    display: none;
+}
+
+#goalsciendtimelabel{
+    display: none;
+}
+
+#goalscicominteglabel{
+    display: none;
+}
+
+.goalscidropdownfilterpop {
+  background: #509fd0;
+  border: 10px solid #84bdde;
+  width: 220px;
+  z-index: 8;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px 15px 6px 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  left: 74px;
+  top: 320px;
+  max-height: 208px;
+  position: absolute;
+  display: none;
+}
+
+.goalscilevellink {
+    color:#fff;
+    display:block;
+    cursor:pointer !important;
+    font-family:helvetica,arial,sans-serif;
+    font-size:15px;
+    background:#21597b;
+    border:2px solid #cfe371;
+    padding:10px;
+    margin:10px;
+    text-align:left;
+    text-decoration:none;
+    vertical-align:baseline;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:20px;
+    text-align: center;
+    min-height: 15px;
+    overflow: hidden;
+}
+
+.goalstarterrorbox {
+    display:none;
+    position:absolute;
+    margin:0px 0 0 8px;
+    background-image:url(../Images/new-icons/icon_error.png);
+    height:20px;
+    width:20px
+}
+
+.goalenderrorbox {
+    display:none;
+    position:absolute;
+    /*margin:-18px 0 0 104px;*/
+    background-image:url(../Images/new-icons/icon_error.png);
+    height:20px;
+    width:20px;
+    margin-left:2px;
+}
+
+#goalsciendtimelabel{
+     margin-left: 5px;
+}
+
+.resprosatt{
+    float:left;
+    margin-top: 3px;
+}
+
+.methodbutton {
+    display:block;
+    opacity:1;
+    position:relative;
+    z-index:1;
+    margin-bottom:0;
+    margin-top: 6px;
+    /*margin-left: 9px;*/
+    border:3px solid #84bdde;
+/* #cfe371; green */
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    background-color:#509fd0;
+/* #afc62a; green */
+    /*width:110px;*/
+    width: 128px;
+    height: 22px;
+    text-align:center;
+    float: left;
+}
+
+.methodbuttontext {
+    position: relative;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    /* margin: 20px; */
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+#method{
+    display:none;
+}
+
+.successbutton {
+    display:block;
+    opacity:1;
+    position:relative;
+    z-index:1;
+    margin-top:12px;
+    margin-bottom:0;
+    /*margin-left: 9px;*/
+    border:3px solid #84bdde;
+/* #cfe371; green */
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    background-color:#509fd0;
+/* #afc62a; green */
+    /*width:110px;*/
+    width: 128px;
+    height: 22px;
+    text-align:center;
+    float: left;
+}
+
+.successbuttontext {
+    position: relative;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    /* margin: 20px; */
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+#success{
+    display:none;
+}
+
+.sucessmethodbox{
+    width:186px;
+    float:right;
+    margin-right: 16px;
+}
+
+.goalnewsmb {
+    border: 3px solid #70b1d8;
+    background-image: url(/webroot/Images/new-icons/makenew.png);
+    width: 38px;
+    height: 38px;
+    background-size: 44px;
+    float: right;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+.newgoalcardtextsmb {
+    color:#FFF;
+    font-family:helvetica,arial,sans-serif;
+    font-size:10pt;
+    text-transform:uppercase;
+    float:right;
+    margin-top:46px;
+    margin-right: 2px;
+}
+
+.goalsnotesbutton{
+    line-height: 30px;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 99px;
+    border: 1px solid rgba(255,0,0,0);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    text-align: center;
+    background-image: url(../Images/new-icons/notes.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float:right;
+    margin-right:24px;
+    background-color: #70b1d8;
+    padding: 0px;
+}
+
+.goalnotewindow {
+    position: relative;
+    background: #2d77a3;
+    border: 10px solid #84bdde;
+    border-radius: 20px;
+    padding: 20px;
+    width: 450px;
+    height: 118px;
+    top:-100px;
+    display:none;
+    /*left: 115px;
+    top: 125px;*/
+}
+
+.goalnotessavebutton, .goalnotesresetbutton, .goalnotescancelbutton {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.goalnotessavebutton, .goalnotesdeletebutton, .goalnotescancelbutton {
+    opacity: 1;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    border: 3px solid #84bdde;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #509fd0;
+    min-width: 110px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.outcomesandservicesoverlay 
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9990;
+    /*
+        Want to have a nice, fancy overlay? Uncomment the below line.
+        background: rgba(0, 0, 0, 0.25)
+    */
+}
+
+.goalnotewindowbuttons{
+    margin-left:82px;
+    margin-top: 10px;
+}

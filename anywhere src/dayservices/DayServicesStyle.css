@@ -1,0 +1,1200 @@
+.dsportrait {
+   display: block;
+   position: relative;
+        
+   width: 50px;
+   height: 44px;
+
+   -webkit-border-radius: 5px 0px 0px 0px;
+   -moz-border-radius: 5px 0px 0px 0px;
+   border-radius: 5px 0px 0px 0px;    
+
+}
+
+.notInGroup {
+    opacity: .2;
+    pointer-events: none;
+    cursor: default;
+}
+
+.dayServicesConsumerList .isAbsent {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1 !important;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+
+.acuitybox {
+   display: block;
+   position: relative;
+  
+   top: 0px;
+  
+   height: 44px;
+   width: 10%;   
+   
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-direction: row;
+    -ms-flex-pack:start;
+    -ms-flex-align:start;  
+    
+     /* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	-moz-box-pack:center;
+	-moz-box-align:start;
+
+	/* Safari and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:start;
+	-webkit-box-align:start;
+
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	box-pack:center;
+	box-align:start;     
+    
+}
+
+.namebox2 {
+   
+   display: block;
+   position: relative;
+   
+   width: 208px;
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-direction: row;
+    -ms-flex-pack:start;
+    -ms-flex-align:start;  
+    
+     /* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	-moz-box-pack:center;
+	-moz-box-align:start;
+
+	/* Safari and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:start;
+	-webkit-box-align:start;
+
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	box-pack:center;
+	box-align:start;  
+	
+	margin: 6px 0px 0px 0px;
+
+}
+
+.dsrecordheader {
+    display: block;
+    position: relative;
+    
+    background: #70b1d8;
+    height: 44px;
+    /*width: 330px;*/
+    width: 350px;
+    
+    top: -2px;
+    left: 0px;
+    
+    border-bottom: 2px solid #cfe371;    
+   
+     /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-direction: row;
+    -ms-flex-pack:start;
+    -ms-flex-align:start;  
+    
+     /* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	-moz-box-pack:center;
+	-moz-box-align:start;
+
+	/* Safari and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:start;
+	-webkit-box-align:start;
+
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	box-pack:center;
+	box-align:start;     
+	
+   -webkit-border-radius: 5px 5px 0px 0px;
+   -moz-border-radius: 5px 5px 0px 0px;
+   border-radius: 5px 5px 0px 0px;   	
+	    
+}
+
+.dayservicerecord
+{
+    display: inline-block;
+    vertical-align: top;
+
+    /*width: 330px;*/
+    width: 350px;
+	min-height: 145px;    
+    padding: 0px;
+    background-color: #2d77a3;
+    border: 0px solid #cfe371;   
+    margin:7px; 
+     
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.dayservicerecord #namebox {
+    line-height: 1;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.inputbar {
+    border: 0px solid #cbcbcb;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    /*padding left is temp solution until icon is added*/
+    /*padding-left: 26px;*/
+    padding-left: 4px;
+}
+
+
+.dayserviceicon
+{
+    background-image: url('/webroot/Images/logo/dayservice.png'); 
+    background-repeat: no-repeat;
+    
+    left: 10px;
+    top: 0px;
+    display: block;
+    width: 155px;
+    height: 34px;
+    
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+
+    position: relative;
+    white-space: nowrap;
+    border:0px solid #cbcbcb;     
+}
+
+.dsnametext {
+    position:relative;
+    display: block;
+    top: 0px;
+    left: 0px;       
+    color: #E0E0E0;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 20px;
+    margin: 0 0 5px;
+    padding: 0px;
+}
+
+.dslastnametext {
+    color: #E0E0E0;
+    font-family: helvetica,arial,sans-serif;        
+    font-size: 16px; 
+      
+}
+
+.dslocationdownarrow {
+    cursor: pointer;
+    display: block;
+
+    height: 13px;
+    width: 13px;
+    
+    position:relative;
+
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+
+    top: 1px;
+    left: 10px;
+    border:0px solid #cbcbcb;
+}
+
+.dsdatebox
+{
+   padding-left: 5px;
+   padding-top: 0px;
+
+   top: 20px;
+   left: -67px;
+   width: 74px;
+   display : block;
+
+   font-family: arial, sans-serif;
+   font-size: 12px;
+   color: #AAAAAA;
+
+   position:relative;
+   border:0px solid #cbcbcb;
+}
+
+.daybuttonbox
+{
+    top: 4px;
+    left: 0px;
+    position:relative;
+    font-family: arial, sans-serif;
+    font-size: 12px; 
+    color: #999999;
+    border:0px solid #cbcbcb;    
+    
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;  
+    
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-direction: row;
+    -ms-flex-pack:start;
+    -ms-flex-align:baseline;  
+    
+     /* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	-moz-box-pack:center;
+	-moz-box-align:baseline;
+
+	/* Safari and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:start;
+	-webkit-box-align:baseline;
+
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	box-pack:center;
+	box-align:baseline;     
+}
+
+.minustophr
+{
+    top:-4px;
+}
+
+.dayheader
+{
+    /* position:relative;
+    font-family: arial, sans-serif;
+    font-size: 11px; 
+    color: #666666;
+
+    border:0px solid #cbcbcb;    */
+}
+
+.dayhname 
+{
+    display: block;
+	opacity: 1;
+	text-align: center;
+    width: 140px;
+    border: 0px solid #cbcbcb;   
+}
+
+.dayhacuity 
+{
+    display: block;
+	opacity: 1;
+    text-align: center;
+    width: 50px;
+
+}
+
+.dayhtimein
+{
+    display: block;
+	opacity: 1;
+	text-align: center;
+    width: 75px;
+
+}
+                       
+.dayhtimeout
+{
+    display: block;
+	opacity: 1;
+	text-align: center;
+    width: 75px;  
+}
+                       
+.dayhservtype
+{
+    display: block;
+	opacity: 1;
+    text-align: center;
+    width: 100px;
+}
+
+.a1
+{
+    top: 5px;
+    left: 120px;    
+}
+
+.a2
+{
+    top: 5px;
+    left: 282px;    
+}
+
+.a3
+{
+    top: 5px;
+    left: 364px;    
+}
+
+.up
+{
+    background-image: url('../Images/uparrow.png');  
+}
+
+.down2
+{
+    background-image: url('../Images/downarrow.png');  
+}
+
+br.daybreak
+{
+  content: " ";
+  display: block;
+  margin: 42px 0;
+}
+
+.dayservicetype
+{
+    font-family: arial, sans-serif;
+    font-size: 10px;   
+}
+
+.dspcheckbox
+{
+    display: block;
+	opacity: 1;
+    width: 17px;
+    height: 16px;
+    top: 3px;
+    left: -125px;
+}
+
+.dspname
+{
+    display: block;
+	opacity: 1;
+    width: 120px;
+    height: 16px;
+    top: 0px;
+    left: -110px;
+}
+
+.barheader
+{
+    color: #70b1d8;    
+    font-size: 9px;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align:left;  
+    vertical-align:bottom;       
+    padding: 0px;
+    margin: 0px;  
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-direction: row;
+    -ms-flex-pack:start;
+    -ms-flex-align:baseline;  
+    
+     /* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	-moz-box-pack:center;
+	-moz-box-align:baseline;
+
+	/* Safari and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack:start;
+	-webkit-box-align:baseline;
+
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	box-pack:center;
+	box-align:baseline;     
+}
+
+.barIn
+{
+    /*margin: 0px 0px 0px 65px;*/
+    margin: 0px 0px 0px 42px;  
+}
+
+.barOut
+{
+    margin: 0px 0px 0px 74px;     
+}
+
+.barType
+{
+    margin: 0px 0px 0px 82px;  
+}
+
+.accdesc
+{
+    position:relative;
+    display: block;
+    color: #2d77a3;        
+    font-size: 9px;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align:left;  
+    margin: 24px 5px 0px 0px;
+}
+
+.dspacuity
+{
+    position:relative;
+    display: block;
+    color: #E0E0E0;    
+    width: 40px;    
+    left: 0px;
+    top: 5px;    
+    font-size: 30px;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;    
+    margin: 0px 0px 3px 0px;    
+}
+
+.dpselement.pinkhighlight
+{
+    background: #f13c6e;   
+}
+
+
+.dpselement
+{
+    display: inline-block;    
+    background: #70b1d8; /* #F13C6E; */
+    z-index: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;    
+    border-radius: 20px 20px 20px 20px;
+    padding: 2px 8px 2px 8px;
+    margin: 5px 10px 5px 10px;
+    background-clip: padding-box; 
+
+}
+
+.dstype
+{
+   width: 91px;
+}
+
+
+
+.pointer
+{
+    cursor: pointer
+}
+
+
+
+.icontext
+{
+    text-align: center; 
+    
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    display: block;
+    color: #666666;
+    position: relative;  
+    
+    top: 20px;          
+}
+
+.rightbutton
+{
+    
+    cursor: pointer;
+    display: block;
+	opacity: 1;
+
+    position:relative;
+    width: 40px;
+    height: 40px;
+        
+    top: 10px;
+    left: 8px;       
+    border:1px solid #e7e7e7;
+}
+
+.toolbar
+{
+    margin: 2px;
+    border:2px solid #e7e7e7;
+    
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-direction: row;
+    -ms-flex-pack:end;
+    -ms-flex-align:baseline;    
+}
+
+.checkplusicon
+{
+    background-image: url('../Images/new-icons/checkplus.png');  
+}
+
+.checkminusicon
+{
+    background-image: url('../Images/new-icons/checkminus.png');  
+}
+
+.daybuttonsbase
+{
+    display: block;
+    position: relative;
+    width: 46px;
+    height: 36px;
+    border: 0px solid #cbcbcb;  
+    cursor: pointer;
+}  
+
+.daybuttonsbaseIE
+{
+    top: 10px;   
+}
+
+.refreshicon
+{
+    
+    background-image: url('../Images/new-icons/refresh.png');  
+}
+
+.trashcanicon
+{
+    background-image: url('../Images/new-icons/trashcan.png');  
+}
+
+
+
+
+.dstypeicon
+{
+        background-image: url('../Images/new-icons/daytype.png');  
+}
+
+.errorbox
+{
+    display: none;
+	opacity: 0;
+    position: relative;
+    width: 500px;
+    left: -1px;
+    z-index: 1;
+    padding: 4px;
+    color: #F0F0F0;
+    background-color: #ab2c1f; 
+    border: 1px solid #cbcbcb;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;    
+    
+    margin: 0px 0px 10px 0px;
+}  
+
+.errortext
+{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    position: relative;    
+    left:20px;   
+}
+
+.clockinbox
+{
+   padding-left: 5px;
+   padding-top: 2px;
+
+   top: -12px;
+   left: 24px;
+   
+   width: 58px;
+   display : block;
+
+   font-family: arial, sans-serif;
+   font-size: 11px;
+   color: #AAAAAA;
+
+   position:relative;
+   border:0px solid #cbcbcb;
+}
+
+.clockoutbox
+{
+   padding-left: 5px;
+   padding-top: 0px;
+
+   top: -26px;
+   left: 100px;
+   width: 65px;
+   display : block;
+
+   font-family: arial, sans-serif;
+   font-size: 11px;
+   color: #AAAAAA;
+
+   position:relative;
+   border:0px solid #cbcbcb;
+}
+
+.massupdatebuttonbox
+{
+    top: 80px;
+    left: 808px;
+    position:fixed;
+    width: 60px;
+    height: 100%; 
+    background: #E9E9E9;   
+    border:1px solid #d7d7d7;
+    
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-right-radius: 10px;  
+} 
+
+
+
+.updatetimeinboxpop
+{
+    display: block;
+	opacity: 0;
+    position: fixed;
+    width: 60px;
+    
+    border: 1px solid #cbcbcb;
+    
+    top: 160px;
+    left: 275px;
+    
+    background: #ffffff;
+    z-index: 2;
+    box-shadow: 2px 3px 1px #ababab;   
+    
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;    
+}
+
+.updatetimeoutboxpop
+{
+    display: block;
+	opacity: 0;
+    position:fixed;
+    width: 60px;
+    border: 1px solid #cbcbcb;
+    
+    top: 160px;
+    left: 338px;
+    
+    background: #ffffff;
+    z-index: 2;
+    box-shadow: 2px 3px 1px #ababab;   
+    
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;    
+}
+
+.updatedsboxpop
+{
+    display: block;
+	opacity: 0;
+    position: fixed;
+    width: 100px;
+    height: 22px;
+    border: 1px solid #cbcbcb;
+    
+    top: 176px;
+    left: 324px;
+    
+    background: #ffffff;
+    z-index: 2;
+    box-shadow: 2px 3px 1px #ababab;   
+    
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;    
+}
+
+.dslocationpop
+{
+    background: #509fd0;
+    border: 10px solid #84bdde;
+    width: 220px;
+    z-index: 8;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px 15px 15px 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius:20px;
+    left: -16px;
+    top: 83px;
+    max-height: 275px;
+    position: absolute;
+    display: none;
+}
+
+.dslocationpop a
+{
+    border-radius: 20px;
+    list-style: none;
+    background: #21597b;
+    border: 2px solid #cfe371;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: white;
+    display: block;
+    padding: 3px 15px;
+    padding-left: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.clockinhiddeninput
+{
+  width: 0px;
+  border: 0px solid #cbcbcb; 
+  position: relative;
+  top: 10px;
+  left: -20px;
+}
+
+.clockouthiddeninput
+{
+  width: 0px;
+  border: 0px solid #cbcbcb; 
+  position: relative;
+  top: 10px;
+  left: -30px;
+}
+
+.massinhiddeninput
+{
+  block: none;
+  opacity: 0;  
+  width: 0px;
+  border: 0px solid #cbcbcb; 
+  position: relative;
+  top: -5px;
+  left: -30px;
+}
+
+.massouthiddeninput
+{
+  block: none;
+  opacity: 0;      
+  width: 0px;
+  border: 0px solid #cbcbcb; 
+  position: relative;
+  top: -5px;
+  left: -30px;
+}
+
+.claendarhiddeninput
+{
+  width: 0px;
+  border: 0px solid #cbcbcb; 
+  position: relative;
+  top: -3px;
+  left: 100px;
+}
+
+.clockinicon { 
+	background-image: url('/webroot/Images/new-icons/clockin2.png'); 
+	background-repeat: no-repeat; 
+	cursor: pointer; 
+	display: block; 
+	height: 32px; 
+	width: 32px; 
+	top: 18px;
+	left: 40px; 
+	position: relative; 
+	white-space: nowrap; 
+	border:0px solid #cbcbcb; 
+}
+
+.clockouticon
+{
+    background-image: url('/webroot/Images/new-icons/clockout2.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    width: 32px;
+    
+    position: relative;   
+    
+    top: -14px;
+    left: 120px;
+}
+
+
+.clockiniconsingle
+{
+    background-image: url('../Images/new-icons/timein.png');  
+    opacity: 0;
+   
+}
+
+.clockouticonsingle
+{
+    background-image: url('/webroot/Images/new-icons/timeout.png');
+    opacity: 0;
+}
+
+.caledariconleft2
+{ 
+    left: 28px;
+}
+
+.dateboxleft2
+{
+    left: -32px;   
+}
+
+.calendarIconIE
+{
+    left: 100px;
+}
+
+
+
+.dsTypePop 
+{
+    display: none;
+    background: #509fd0;
+    border: 10px solid #84bdde;
+    width: 140px;
+    z-index: 8;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px; 
+    position: relative;
+    left: 183px;
+    margin-bottom: -230px;
+}
+
+.dsTypeLink 
+{
+    border-radius: 20px;
+    list-style: none;
+    background: #21597b;
+    border: 2px solid #cfe371;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: white;
+    display: block;
+    padding: 3px 15px;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+.selected
+{
+    opacity: 1;
+}
+
+.notselected
+{
+    opacity: .35;
+}
+
+.notselected .inputbar
+{
+    pointer-events: none;
+}
+
+#highlightselectionbar
+{
+    position:fixed;    
+    width: 100%;
+    height: 80px;
+    background:#ccc; 
+    z-index: 4;
+    
+    border-bottom:10px solid #cfe371;
+}
+
+#selectedclockin 
+{
+    background-image: url('/webroot/Images/new-icons/selected_in.png');
+    margin-right:30px;
+}
+
+#selectedclockout 
+{
+    background-image: url('/webroot/Images/new-icons/selected_out.png');
+    margin-right: 30px;
+}
+
+.selectallrows 
+{
+    background-image: url('/webroot/Images/new-icons/selectall.png');
+    margin-right: 30px;
+}
+
+.unselectallrows
+{
+    background-image: url('/webroot/Images/new-icons/unselectall.png');
+    margin-right: 30px;
+}
+    
+
+#selectedtrash 
+{
+    background-image: url('/webroot/Images/new-icons/selected_trash.png');
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+#selectionbanner
+{
+    float: left;
+    margin-left: 30px;
+    position: static;
+}
+
+.errorheader
+{
+    background: #f13c6e;
+    color: white;
+}
+
+.errorText
+{
+    padding-left: 0px;
+    margin-top: 12px;
+    width: 284px;
+    font-size: 12px;
+}
+
+/*.right-side-guitar 
+{
+    background: url("/webroot/Images/playingtogether.png") no-repeat;
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+}*/
+
+/*class chaining needed because of flag positioning*/
+.selected .invertedLine
+{
+    background-color: rgb(112, 177, 216);
+}
+
+.selected .invertedLine .dpselement
+{
+    background-color:  rgb(45, 119, 163);
+}
+
+#dsdatebox{
+    cursor: pointer;
+    width: 136px;
+    left: 6px;
+    background-color: #cccccc;
+    border: none;
+    font-size: 21px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+#locationhelp{
+    opacity: 1;
+    top: 80px;
+    left: 31px;
+}
+
+#consumerclockinhelp{
+    position:absolute;
+    font:10pt helvetica,arial,sans-serif;
+    color:#FFF;
+    padding:10px;
+    background:#f13c6e;
+    border:5px solid #f89ab5;
+    -webkit-border-radius:15px;
+    -moz-border-radius:150px;
+    border-radius:15px;
+
+    top: 12px;
+    right: 14px;
+    max-width: 250px;
+    min-width:125px;
+}
+
+.consumerclockinhelptriangle{
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #f89ab5;
+}
+
+#datebox2 {
+    text-align: center;
+}
+
+/*---------------------IE11----------------------*/
+.ie11 #dsdatebox
+{
+    margin-left: 22px;
+}
+
+.cidropdownfilterpop{
+    border-radius: 20px;
+    list-style: none;
+    background: #509fd0;
+    border: 10px solid #84bdde;
+    margin-bottom: -230px;
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    padding: 3px 15px;
+    padding-left: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: helvetica,arial,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+    line-height: 30px;
+    width: 220px;
+    margin-left: 150px;
+    display: none;
+    max-height: 248px;
+    overflow-y: auto;
+    z-index: 8;
+    position: relative;
+}
+
+#cidropdownfilterpop {
+    display: none;
+}
+
+.dsCIButton {
+    background-clip: padding-box;
+    background: #70b1d8;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 8px 2px 8px;
+    z-index: 0;
+}
+
+.dsCIButtonGreen {
+    background-color:green;
+}
+
+.nonselectedcivalue {
+    color:#fff;
+    display:block;
+    cursor:pointer !important;
+    font-family:helvetica,arial,sans-serif;
+    font-size:12px;
+    background:#21597b;
+    border:2px solid #cfe371;
+    margin:10px;
+    text-align:left;
+    text-decoration:none;
+    vertical-align:baseline;
+    border-radius:20px;
+    text-align: center;
+    min-height: 15px;
+    overflow: hidden;
+}
+
+.selectedcivalue {
+    color:#fff;
+    display:block;
+    cursor:pointer !important;
+    font-size:12px;
+    background:#21597b;
+    border:2px solid #FF0000;
+    margin:10px;
+    text-align:left;
+    text-decoration:none;
+    vertical-align:baseline;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:20px;
+    text-align: center;
+    min-height: 15px;
+    overflow: hidden;
+}

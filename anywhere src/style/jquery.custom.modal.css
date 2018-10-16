@@ -1,0 +1,65 @@
+.modaloverlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9990;
+    /*
+        Want to have a nice, fancy overlay? Uncomment the below line.
+        background: rgba(0, 0, 0, 0.25)
+    */
+}
+
+.modalcontainer {
+    background: #509fd0;
+    border: 5px solid #84bdde;
+    padding: 5px;
+    width: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-border-radius: 20px;
+    border-radius:5px;
+    max-height: 275px;
+    animation: quickgrow 0.1s ease;
+    z-index: 9991;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modaltitle {
+    width: 100%;
+    background: #70b1d8;
+    border-bottom: 2px solid #cfe371;
+    color: #fff;
+}
+
+.modalbody {
+    background: #2d77a3;
+    color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.modalbuttons {
+    width: 100%;
+    text-align: right;
+}
+
+.modalbuttons button {
+        opacity: 1;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    border: 3px solid #84bdde;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #509fd0;
+    min-width: 165px;
+    text-align: center;
+    cursor: pointer;
+    height:40px;
+    margin-top: 5px;
+}

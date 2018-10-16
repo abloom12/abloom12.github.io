@@ -1,0 +1,942 @@
+﻿/*
+-------------------------------------------------------------------
+    HEADER DROPDOWNS
+-------------------------------------------------------------------
+*/
+.casenotesbillerfilterbox {
+    background: #ccc;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    display: block;
+    height: 48px;
+    position: relative;
+        top: 0;
+        left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: -20px;
+    margin-right: 10px;
+    padding: 0 35px 0 0;
+    width: auto;
+    text-align: center;
+}
+
+#casenotesbillerfiltertext {
+    font-size: 20px;
+    text-align: left;
+}
+
+/*
+-------------------------------------------------------------------
+    RIGHT PANEL
+-------------------------------------------------------------------
+*/
+/* Buttons */
+.rightpanelbutton {
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid #cfe371;
+    border-radius: 99px 99px 99px 99px;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    position: relative;
+}
+#buttondiv {
+    /* horrible name for a class */
+    padding: 10px 0;
+    width: 100%;
+}
+.buttonWrap p {
+    text-align: center;
+}
+#newnote {
+    display: none;
+}
+.newnote,
+.editnote {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.newnote {
+    background-image: url('../Images/new-icons/casenotes2.png');
+}
+.editnote {
+    background-image: url('../Images/new-icons/casenotes.png');
+}
+#newnotedescription,
+#editnotedescription {
+    color: white;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 12px;
+}
+#newnotedescription {
+    display: none;
+}
+.casenoteeditenabled {
+    display: block !important;
+}
+#caseconsumersearchbox {
+    margin: 0 auto;
+    width: 90%;
+}
+#consumerpane .caserosterbar {
+    flex-flow: row wrap;
+}
+
+/* Consumer List*/
+.caseconsumerlist {
+    top: 188px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mobile-top {
+    position: fixed;
+    top: 125px;
+    z-index: 99999;
+}
+#newCaseNote {
+  background: #2d77a3;
+  margin: 0px;
+  padding: 20px;
+  padding-top: 15px;
+  /*width: 646px;*/
+  width: 656px;
+  /*height: 590px;*/
+  height:480px;
+  overflow: auto;
+  float: left;
+  clear: both;
+  margin-top: 5px;
+  margin-left: 10px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#newCaseNote p {
+    margin-top: 5px;
+    margin-bottom: 11px;
+    text-align: left;
+}
+.casedateentry{
+  float: left;
+  width: 100px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.caseservicedateentrynew{
+    background: #70b1d8;
+    color: #fff;
+    text-align: center;
+    font-family: helvetica,arial,sans-serif;
+    border: 0px;
+    /*width:66px;*/
+    width:72px;
+    cursor: pointer;
+    font-size:14px;
+    margin-top:-4px;
+}
+.casedatecontainer {
+  margin-left: 10px;
+  margin-top: 15px;
+  background-color: #2d77a3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #2d77a3;
+  border-width: 10px;
+  border-style: solid;
+  max-width: 250px;
+}
+.casedatecontainerlabel {
+  font-size: 12px;
+  width: 42px;
+  float: left;
+  clear: left;
+  padding-top: 7px;
+  color: white;
+  padding-left: 5px;
+}
+.casedateheadertext {
+font-size: 14px;
+  color: #E0E0E0;
+}
+.startendwrapper {
+  background-color: #84bdde;
+  height: 52px;
+  width:220px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 3px;
+}
+.casenotestablenodata {
+    width: 680px;
+}
+
+/*
+-------------------------------------------------------------------
+    CASE NOTES TABLE
+-------------------------------------------------------------------
+*/
+.casenotestable {
+    border-radius: 5px;
+    z-index: 1;
+	margin:0px;
+    margin-top: 54px;
+    padding:0px;
+    max-height: 524px;
+    overflow: auto;
+}
+.casenotestable table{
+    border-collapse: collapse;
+    border-spacing: 0;
+	/*width:100%;*/
+	height:100%;
+	margin:0px;
+    padding:0px;
+}
+.casenotestable tr:last-child td:last-child {
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.casenotestable table tr:first-child td:first-child {
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}
+.casenotestable table tr:first-child td:last-child {
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+}
+.casenotestable tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.casenotestable tr:nth-child(odd){ 
+    background-color:#84bdde; 
+}
+.casenotestable tr:nth-child(even)    { 
+    background-color:#ffffff; 
+}
+.casenotestable td{
+	vertical-align:middle;
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	font-size:14px;
+    cursor: default;
+    overflow: hidden;
+}
+.casenotestable tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+.casenotestable tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+.casenotestable tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.casenotestable tr:first-child td{
+	background-color:#2d77a3;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	color:#E0E0E0;
+}
+.casenotestable tr:first-child:hover td{
+	background-color:#2d77a3;
+}
+.casenotestable tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.casenotestable tr:first-child td:last-child{
+	/*border-width:0px 0px 1px 1px;*/
+}
+.casenotestable .cnconsumername {
+    color: #0000EE;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.casenotesdatebox{
+    display:none;
+}
+
+.billerfilterpop {
+  background: #509fd0;
+  border: 10px solid #84bdde;
+  width: 220px;
+  z-index: 8;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px 15px 6px 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  left: 74px;
+  top: 83px;
+  max-height: 208px;
+  position: absolute;
+  display: none;
+}
+.billerfilterpop a {
+    border-radius:20px;
+    list-style:none;
+    background:#21597b;
+    border:2px solid #cfe371;
+    margin-bottom:15px;
+    font-size:12px;
+    color:#fff;
+    display:block;
+    padding:3px 15px;
+    padding-left:3px;
+    cursor:pointer;
+    text-decoration:none;
+    font-family:helvetica,arial,sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+    overflow:hidden;
+    line-height:30px;
+}
+.billerlink {
+    color:#fff;
+    display:block;
+    cursor:pointer !important;
+    font-family:helvetica,arial,sans-serif;
+    font-size:15px;
+    background:#21597b;
+    border:2px solid #cfe371;
+    padding:10px;
+    margin:10px;
+    text-align:left;
+    text-decoration:none;
+    vertical-align:baseline;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:20px;
+    text-align: center;
+    min-height: 15px;
+    overflow: hidden;
+}
+.clearcasecalanders{
+  background-image: url(/webroot/Images/new-icons/cancel3.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  float: left;
+  border: 2px solid #848484;
+  -webkit-border-radius: 99px 99px 99px 99px;
+  cursor: pointer;
+  float: right;
+  margin-right: 5px;
+}
+.casenotesbannericon{
+  width: 24px;
+  height: 24px;
+  border: 2px solid #848484;
+  -webkit-border-radius: 99px 99px 99px 99px;
+  -moz-border-radius: 99px;
+  background-size: contain;
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+
+#casenotelabelbox{
+  /*width: 73px;*/
+  width: 75px;
+  float: left;
+  color: #E0E0E0;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.casedropdowncontainer{
+  width: 150px;
+  float: left;
+  margin-top: 10px;
+}
+#casenotelabelbox2{
+  width: 85px;
+  float: left;
+  color: #E0E0E0;
+  text-align: right;
+  font-size: 14px;
+  margin-left: 32px;
+  /*margin-top: 5px;*/
+  margin-top:4px;
+  margin-right: 10px;
+}
+.casedropdown {
+  height: 14px;
+  width: 130px;
+  position: relative;
+  background: #70b1d8;
+  z-index: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: helvetica,arial,sans-serif;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-block;
+  padding: 2px 10px;
+  margin: 0px 0px 5px 0px;
+  /*margin: 2px 0px 5px 0px;*/
+  text-decoration: none;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+}
+.casedropdownsafari {
+  height: 14px;
+  width: 130px;
+  position: relative;
+  background: #70b1d8;
+  z-index: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: helvetica,arial,sans-serif;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-block;
+  padding: 2px 10px;
+  margin: 4px 0px 5px 0px;
+  text-decoration: none;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+}
+.casenotedropdownfilterpop {
+  background: #509fd0;
+  border: 10px solid #84bdde;
+  width: 220px;
+  z-index: 8;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px 15px 6px 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  left: 74px;
+  top: 83px;
+  max-height: 208px;
+  position: absolute;
+  display: none;
+}
+#casenotetext {
+  float: left;
+  resize: none;
+  /*width: 501px;*/
+  width: 498px;
+  /*height: 350px;*/
+  height:226px;
+  margin-top: 12px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-family: helvetica,arial,sans-serif;
+}
+.billericon {
+  background-image: url(/webroot/Images/new-icons/default.png);
+  background-repeat: no-repeat;
+}
+.billericon {
+    background-color: #fff;
+    background-image: url(/webroot/Images/new-icons/biller2.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    position: relative;
+    width: 47px;
+    height: 48px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: 3px solid #848484;
+    -webkit-border-radius: 99px 99px 99px 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px 99px 99px 99px;
+    z-index: 1;
+}
+.casenotetextimage{
+  display: block;
+  background: #70b1d8;
+  top: 1px;
+  background-image: url(../Images/new-icons/notes.png);
+  background-repeat: no-repeat;
+  /*background-position-y: 152px;*/
+  background-position-y:90px;
+  /*height: 354px;*/
+  height:230px;
+  width: 30px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  float: left;
+  clear: left;
+  margin-top: 12px;
+}
+#cnothersettingscontainer{
+  /*width: 100px;*/
+  /*width:80px;*/
+  /*width:92px;*/
+  min-width:100px;
+  float: right;
+  color: #E0E0E0;
+  margin-top: 13px;
+  margin-left: 5px;
+  /*font-size: 10px;*/
+  font-size: 14px;
+  /*height: 351px;*/
+  height:227px;
+}
+#casenotesavebutton{
+  float: right;
+  margin-top: 54px;
+  border: 3px solid #84bdde;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #509fd0;
+  min-width: 82px;
+  text-align: center;
+  color:white;
+  font-size: 14px;
+  margin-left: 20px;
+  display: block;
+  cursor: pointer;
+}
+#casenotedeletebutton{
+  float: right;
+  margin-top: 52px;
+  border: 3px solid #84bdde;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #509fd0;
+  min-width: 82px;
+  text-align: center;
+  color:white;
+  font-size: 14px;
+  display: none;
+  cursor: pointer;
+}
+#starttimeclock{
+    top: 360px;
+    left: 566px;
+}
+.caseservicestarttimeentry{
+    background: #70b1d8;
+    color: #fff;
+    text-align: center;
+    font-family: helvetica,arial,sans-serif;
+    border: 0px;
+    /*width: 66px;*/
+    width:72px;
+    cursor: pointer;
+    font-size:14px;
+    margin-top:-2px;
+}
+.dynamic{
+    display:none;
+}
+#cnservicelocationdropdownfilterbox{
+    margin-bottom: 9px;
+}
+#cncalandaricon{
+    margin-top: 7px;
+}
+#cnvendorfilterpop{
+    left: 332px;
+}
+
+
+#groupcncheckbox{
+    display: none;
+}
+.casecheckbox{
+    margin: 0px 3px 0px 0px;
+    vertical-align: text-top;
+}
+.casecheckcontainer{
+    margin-top: 4px;
+}
+
+.casenoteeditenabledtwo{    
+    display: block;
+    /*display: block !important;*/
+}
+.cnresultserrorbox{
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    margin: 0px 0 0 -18px;
+    background-image: url(../Images/new-icons/icon_error.png);
+    height: 16px;
+    width: 16px;
+}
+.cntableouterwrapper{
+    display:none;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+.cnnotesummary{
+    white-space: nowrap;
+    max-width:120px;
+    cursor: pointer !important;
+}
+.casenotestamp{
+    float: left;
+    padding-left:15px;
+    padding-top: 16px;
+    color: #fff;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 10pt;
+}
+.casenotenamedetails{
+    padding-top: 2px;
+    color: #fff;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 12pt;
+    margin-left:10px;
+}
+.casenoteselectednamedetails{
+    padding-top: 2px;
+    color: #fff;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 12pt;
+    margin-left:10px;
+    display: none;
+}
+.groupcasenotenamedetails{
+    padding-top: 2px;
+    color: #fff;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 12pt;
+    margin-left:10px;
+    display:none;
+}
+.groupcasenoteadditionalnamedetails{
+    padding-top: 2px;
+    color: #fff;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 12pt;
+    margin-left:10px;
+    display:none;
+}
+#casenoteerrormessage{
+    font-family: helvetica,arial,sans-serif;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 8px;
+    padding-left: 21px;
+    background-image: url(../Images/new-icons/icon_error.png);
+    background-repeat: no-repeat;
+    background-size: 1.6%;
+    /*background-size: 20px;
+    height: 20px;*/
+}
+#casenoteoverlaperrormessage{
+    font-family: helvetica,arial,sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-left: 8px;
+    padding-left: 21px;
+    background-image: url(../Images/new-icons/icon_error.png);
+    background-repeat: no-repeat;
+    /*background-size: 1.1%;*/
+    background-size: 3.1%;
+    width:700px;
+}
+.cnblowupwindow{
+    overflow: scroll;
+    position: fixed;
+    left: 115px;
+    top: 117px;
+    background: #2d77a3;
+    border: 10px solid #84bdde;
+    min-width: 190px;
+    z-index: 8;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #E0E0E0;
+    text-align: left;
+    font-family: helvetica,arial,sans-serif;
+}
+#cnblowuptextarea{
+  float: left;
+  resize: none;
+  width: 500px;
+  height: 350px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /*pointer-events: none;*/
+  padding: 5px;
+  font-size:14px;
+  font-family: helvetica,arial,sans-serif;
+}
+.casenotebannererror{
+    /*top:60px;*/
+    top:100px;
+    /*right: -10px;*/
+    right:5px;
+    width:200px;
+    height:25px;
+    z-index: 2;
+    display:block;
+    /*opacity:0;*/
+    position:absolute;
+    font:14pt helvetica,arial,sans-serif;
+    color:#FFF;
+    padding:10px;
+    background:#f13c6e;
+    border:5px solid #f89ab5;
+    -webkit-border-radius:15px;
+    -moz-border-radius:150px;
+    border-radius:15px;
+    height: 45px;
+    max-width: 250px;
+    min-width:150px;
+
+
+}
+.cntriangleright {
+    display:block;
+    /*opacity:0;*/
+    position:absolute;
+    /*top:63px;*/
+    top:-5px;
+    /*right: -28px;*/
+    right:-20px;
+    z-index: 1;
+    width:0;
+    height:0;
+    border-style:solid;
+    /*border-width:25px 0 25px 25px;*/
+    border-width:35px 0 40px 25px;
+    border-color:transparent transparent transparent #f89ab5
+}
+
+/*Added CSS to fix Case Note table*/
+#firsttr {
+ //position:absolute;
+ background-color: transparent;
+ /*top:120px;*/
+}
+/*#frdatetd{
+ width:72px;
+}
+#frservicestarttd{
+ width:65px;
+}
+#frnametd{
+ width:81px;
+}
+#frnotetd{
+ width:120px;
+}
+#frupdatedbytd{
+ width:64px;
+}
+#frgroupidtd{
+ width:49px;
+}
+#frbatchedtd{
+ width:49px;
+}
+#datetd{
+ width:72px;
+}
+#servicestarttd{
+    width:65px;
+}
+#nametd{
+    width:81px;
+}
+#notetd{
+    width: 120px;
+}
+#updatedbytd {
+    width: 64px;
+}
+#groupidtd {
+    width: 49px;
+}
+#batchedtd{
+    width:53px;
+}*/
+#cnmileagetextarea {
+    height: 20px;
+    width: 80px;
+    resize: none;
+    margin-top: 3px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    font-family: helvetica,arial,sans-serif;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 0px 0px 5px 0px;
+    /* margin: 2px 0px 5px 0px; */
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    border: 0;
+    margin-top: 5px;
+    text-align: center;
+}
+.casenotemileage {
+    padding-left: 8px;
+    margin-top: 2px;
+    display: none;
+}
+.cnmileagelabel {
+    padding-left: 20px;
+}
+#cntraveltimetextarea {
+    height: 22px;
+    width: 95px;
+    resize: none;
+    margin-top: 3px;
+    padding-left: 5px;
+    margin-left: 16px;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+}
+#cntraveltime {
+    margin-top: 10px;
+    display: none;
+    float:right;
+    color: white;
+    font-size:14px;
+    /*padding-right: 12px;*/
+    padding-right: 2px;
+}
+#cntraveltimelabel {
+    padding-left: 30px;
+    margin-bottom: -16px;
+    color: #E0E0E0;
+}
+#newcasenotestimer {
+    display: block;
+    /*float: right;*/
+    padding-right: 22px;
+    margin-top: 6px;
+    background-color:white;
+    padding-left: 24px;
+    height: 22px;
+    border-radius: 5px;
+    width: 54px;
+}
+#editcasenotestimer {
+    display: block;
+    /*float: right;*/
+    padding-right: 22px;
+    margin-top: 6px;
+    background-color:white;
+    padding-left: 24px;
+    height: 22px;
+    border-radius: 5px;
+    width: 54px;
+}
+.casenotedoctime {
+    float:right;
+    padding-top: 10px;
+    /*padding-right: 12px;*/
+    padding-right: 2px;
+    display:none;
+}
+.cntimerbuttons {
+   padding-left: 5px;
+}
+.doctimelabel {
+    font-size:14px;
+    /*color:white;*/
+    color: #E0E0E0;
+    padding-left: 20px;
+}
+#cnTimerStart {
+    border-radius:5px;
+    margin-right:2px;
+}
+#cnTimerStop {
+    border-radius:5px;
+}
+#seconds {
+    display:none;
+}
+#minutes {
+    padding-left: 18px;
+    font-size:15px;
+}
+
+@media all and (max-width: 1366px) and (orientation:landscape) {
+    #mobiledetector {
+        display: none;
+    }
+}
+
+/*If using input number. Put this code back in. It keeps the input fields 
+    from having the up and down arrows for scrolling...MAT(9/1/16)*/
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/

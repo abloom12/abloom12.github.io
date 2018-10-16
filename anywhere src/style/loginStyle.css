@@ -1,0 +1,374 @@
+body {
+    background: none repeat scroll 0 0 #fbfbfb;
+    padding:0;
+    margin:0;
+    display:block;
+}
+@media all and (max-width: 1366px) and (orientation:landscape) {
+    #mobiledetector {
+        display: none;
+    }
+}
+.wrapper-header {
+    font:15px/1em "Proxima Nova Regular",helvetica,arial,sans-serif;
+    min-height:70px;
+    position:relative;
+    z-index:2;
+    min-width:990px;
+    border-bottom:10px solid #cfe371
+}
+.wrapper-header-inner {
+    margin:0 auto;
+    padding-left:170px;
+    position:relative;
+    width:820px
+}
+.logo {
+    background:url(/webroot/Images/logo/logo_anywhere.png) no-repeat;
+    display:block;
+    height:50px;
+    /*left:0;*/
+    left:360px;
+    overflow:hidden;
+    position:absolute;
+    text-indent:-9999px;
+    top:10px;
+    width:221px
+}
+.wrapper {
+    font:15px/1em "Proxima Nova Regular",helvetica,arial,sans-serif;
+    min-height:470px;
+    min-width:990px;
+    background-color:#509fd0
+}
+.content {
+    margin:0 auto;
+    position:relative;
+    width:820px;
+    display:block
+}
+.left-side {
+    width:50%;
+    height:400px;
+    position:absolute;
+    right:50%
+}
+.left-side-stuff {
+/* background: none repeat scroll 0 0 #454545; */
+    font:14pt helvetica,arial,sans-serif;
+    color:#FFF;
+    padding:10px;
+    padding-top:20px
+}
+.inf {
+    width:125px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    background-color:#eee;
+    padding-left:4px
+}
+.pillbar {
+    display:block;
+    z-index:1;
+    margin:0;
+    padding:6px;
+    border:3px solid #84bdde;
+/*#ffd9e7;*/
+    width:370px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    background-color:#fbfbfb
+}
+.pillbar2 {
+    display:none;
+    z-index:1;
+    margin:0;
+    padding:6px;
+    border:3px solid #84bdde;
+/*#ffd9e7;*/
+    width:370px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    background-color:#fbfbfb
+}
+.lbutton {
+    display:block;
+    opacity:1;
+    z-index:1;
+    position:relative;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    padding:4px;
+    border:3px solid #ffd9e7;
+    width:80px;
+    background-color:#f13c6e;
+    -webkit-appearance: none;
+}
+.lbutton2 {
+    float:right;
+    top:-3px
+}
+.loginbutton {
+    font-family:arial,sans-serif;
+    font-size:12px;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+    cursor:pointer;
+}
+#infalloginbutton {
+    width: 86px;
+    margin-top: -3px;
+    margin-right: 12px;
+}
+.right-side {
+    background:url(/webroot/Images/womanonbench.jpg) no-repeat;
+    width:50%;
+    height:400px;
+    position:absolute;
+    left:50%
+}
+.err {
+    position:relative;
+    display:none;
+    /*top:270px;*/
+    top:300px;
+    left:10px;
+    height:30px;
+    width:366px;
+    padding:6px;
+    border-radius:5px;
+    border:3px solid #ffd9e7;
+    color:#D8000C;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    background-color:#f13c6e;
+    z-index:1
+}
+.version {
+    font:10pt helvetica,arial,sans-serif;
+    font-size:16px;
+    color:#777;
+    position:fixed;
+    bottom:0;
+    right:10px
+}
+.vertext {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:16px;
+    color:#777;
+    position:fixed;
+    bottom:0;
+    right:64px
+}
+#changePassword {
+    float: right;
+    padding-right: 10px;
+    padding-top: 4px;
+    text-decoration: underline;
+    font: 13px/1em "Proxima Nova Regular",helvetica,arial,sans-serif;
+    cursor: pointer;
+}
+#resetPassword {
+    float: right;
+    padding-right: 10px;
+    padding-top: 4px;
+    text-decoration: underline;
+    font: 13px/1em "Proxima Nova Regular",helvetica,arial,sans-serif;
+    cursor: pointer;
+}
+#backToLogin {
+    float: right;
+    padding-right: 10px;
+    padding-top: 4px;
+    text-decoration: underline;
+    font: 13px/1em "Proxima Nova Regular",helvetica,arial,sans-serif;
+    cursor: pointer;
+    display: none;
+}
+#customLogo{
+    max-height : 80px;
+}
+#customLoginText{
+    /*height: 102px;*/
+    min-height: 102px;
+    max-height:102px;
+    overflow-y:auto;
+}
+#reset {
+    display: none;
+}
+/*Infal Additions below*/
+#loginInfal{
+    /*padding-bottom: 2px;
+    position:fixed;*/
+}
+.lbutton3 {
+    float:right;
+    /*top:-3px;
+    width:100px;*/
+}
+.pillbar3 {
+    display:block;
+    z-index:1;
+    margin:0;
+    padding:6px;
+    border:3px solid #84bdde;
+    /*#ffd9e7;*/
+    width:260px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    background-color:#fbfbfb
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 20px;
+  }
+}
+#rotationMessageOverlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9990;
+    background-color: white;
+}
+@media only screen and (orientation:landscape){
+    #rotationMessageOverlay { 
+        display:none; 
+    }
+    #mainWrapper { 
+        display:block; 
+    }
+}
+@media only screen and (orientation:portrait){
+    #rotationMessageOverlay { 
+        display:block; 
+    }
+    #mainWrapper { 
+        display:none; 
+    }
+}
+
+/* Styles not being used - according to Google */
+.mobile-top {
+    position: absolute;
+    top: 0px;
+}
+.headline {
+    font: 24pt helvetica,arial,sans-serif
+}
+.bold {
+    font-weight: 700
+}
+.actionbanner {
+    width: 500px
+}
+.actioncenter {
+    min-height: 400px
+}
+.arrbase {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 18px;
+    border-color: transparent transparent #ffd9e7;
+    z-index: 3
+}
+.arr {
+    top: -27px;
+    left: 150px
+}
+.arrbase2 {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ffd9e7;
+    z-index: 3
+}
+.arr2 {
+    top: 36px;
+    left: 150px
+}
+.err2 {
+    position: relative;
+    display: block;
+    top: 153px;
+    left: 10px;
+    height: 30px;
+    width: 366px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 3px solid #ffd9e7;
+    color: #D8000C;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f13c6e;
+    z-index: 2
+}
+.errorpic {
+    position: relative;
+    display: block;
+    top: -20px;
+    left: 0
+}
+.errortext {
+    font: 11pt helvetica,arial,sans-serif;
+    position: relative;
+    display: block;
+    top: -41px;
+    left: 40px;
+    color: #FFF
+}
+.passwordtext {
+    position: relative;
+    display: block;
+    font: 10pt helvetica,arial,sans-serif;
+    color: #777;
+    padding-top: 14px;
+    min-height: 60px
+}
+.passwordresettext {
+    position: relative;
+    display: block;
+    font: 10pt helvetica,arial,sans-serif;
+    color: #777;
+    padding-top: 14px;
+    min-height: 60px
+}
+#resetButton {
+    left: 290px;
+}
+#rotationMessageContainer {
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+    width: 400px;
+}
+/*-----------IE 10 & IE 11 Code--------------*/
+/* Gets rid of the red borders that show up around the
+username/password boxes when the user inputs them wrong -Shannon*/
+.ie11 .inf {
+    outline-style: none;
+}
+.ie10 .inf {
+    outline-style: none;
+}

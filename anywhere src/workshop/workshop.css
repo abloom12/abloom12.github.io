@@ -1,0 +1,353 @@
+﻿#workshoplocationbox, #jobcodebox, #workshopdatebox, #supervisorbox {
+    position: relative;
+    padding: 0 20px 0;
+    color: #FFF;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}
+#workshoplocationbox, #supervisorbox {
+    width: 140px;
+}
+#workshopdatebox {
+    width: 120px;
+}
+#jobcodebox {
+    width: 140px;
+}
+#workshoplocationname, #workshopsupervisorname, #workshopdateboxinside {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: calc(100% - 20px);
+}
+#jobcodename {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 150px;
+}
+#workshoplocationname {
+    text-align: center;
+}
+#workshopsupervisorname{
+    text-align: center;
+}
+#workshopdateboxinside{
+    text-align: center;
+}
+#wsfirsttr {
+ background-color: transparent;
+}
+.workshoptable {
+    z-index: 1;
+	margin:0px;
+    margin-top:20px;
+    padding:0px;
+    max-height: 524px;
+    overflow: auto;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.workshoptable table{
+    border-collapse: collapse;
+    border-spacing: 0;
+	/*width:100%;*/
+	height:100%;
+	margin:0px;
+    padding:0px;
+    
+}
+.workshoptable tr:last-child td:last-child {
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.workshoptable table tr:first-child td:first-child {
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+}
+.workshoptable table tr:first-child td:last-child {
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+}
+.workshoptable tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.workshoptable tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.workshoptable tr:nth-child(odd){ 
+    background-color:#84bdde; 
+}
+.workshoptable td{
+	vertical-align:middle;
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:14px;
+    cursor: default;
+    /*Added*/
+    overflow: hidden;
+}
+.workshoptable tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+.workshoptable tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+.workshoptable tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.workshoptable tr:first-child td{
+	background-color:#2d77a3;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	color:#E0E0E0;
+}
+.workshoptable tr:first-child:hover td{
+	background-color:#2d77a3;
+}
+.workshoptable tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.workshoptable tr:first-child td:last-child{
+	/*border-width:0px 0px 1px 1px;*/
+}
+.wstableouterwrapper{
+    /*display:none;*/
+    z-index: 0;
+    margin-left: 10px;
+    /*border: 1px solid #000000;*/
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#wsfrconsumertd{
+ width:72px;
+}
+#wsfrstarttimetd{
+ width:86px;
+}
+#wsfrendtimetd{
+ width:86px;
+}
+#wsfrjobcodetd{
+ width:80px;
+}
+#wsfrjobsteptd{
+ width:120px;
+}
+#wsfrhourstd{
+ width:49px;
+}
+#wsfrqtytd{
+ width:49px;
+}
+#wsfrsvtd{
+ width:80px;
+}
+#wsconsumertd{
+ width:72px;
+}
+#wsstarttimetd{
+    width:74px;
+}
+#wsendtimetd{
+    width:74px;
+}
+#wsfrjobcodetd{
+    width: 80px;
+}
+#wsjobsteptd {
+    width: 120px;
+}
+#wshourstd {
+    text-align: center;
+    width: 49px;
+}
+#wsqtytd {
+    padding: 0;
+    width: 40px;
+}
+#wsqtytd input {
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+#wsfrqtytd{
+    width: 49px;
+}
+#wsfrsvtd {
+    width: 80px;
+}
+.workshoptable .error {
+    box-shadow: inset 0 0 0 2px red;
+}
+.workshoptablenodata {
+    width: 680px;
+}
+.idnotactiveemployee {
+    opacity:.2;
+    pointer-events: none;
+    cursor:default;
+}
+.workshoptablenodata {
+    width: 680px;
+}
+/* Select Batch */
+.selectbatchcard {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 377px;
+    height: 150px;
+}
+.selectbatchtitle {
+    line-height: 22px;
+    background-color: #70b1d8;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid #cfe371;
+    font-weight: bold;
+    margin-bottom: -16px;
+    height: 48px;
+    position: relative;
+}
+.selectbatchtitle > p {
+    font-size: 18px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.selectbatchbody {
+    height: calc(100% - 50px);
+    background-color:#2d77a3;
+    color:white;
+}
+#selectbatchlist {
+    max-height: 100%;
+    overflow-y: auto;
+}
+#selectbatchlist li {
+    list-style: none;
+    cursor: pointer;
+    padding: 3px;
+}
+/* No Batch Card*/
+.nobatchcard {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        width: 370px;
+    height: 110px;
+}
+.nobatchtitle {
+    height: 50px;
+    line-height:50px;
+    background-color: #70b1d8;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid #cfe371;
+    font-weight: bold;
+    margin-bottom: -16px;
+}
+.nobatchbody {
+    height: calc(100% - 50px);
+    background-color:#2d77a3;
+    color:white;
+}
+#nobatchlist {
+    max-height: 100%;
+    overflow-y: auto;
+}
+#nobatchlist li {
+    list-style: none;
+    cursor: pointer;
+    padding: 3px;
+}
+
+#workshoptrashcan {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-size: 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.workshoptable tr:nth-child(even) #workshoptrashcan {
+    background-image: url(/webroot/Images/new-icons/selected_trash2.png);
+}
+.workshoptable tr:nth-child(odd) #workshoptrashcan {
+    background-image: url(/webroot/Images/new-icons/selected_trash2-bg.png);
+}
+
+.batchinfo {
+    padding-top: 2px;
+    color: #fff;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+.timeOverlapPopupContainer {
+    background: #2D77A3;
+    box-shadow: 0px 0px 10px 1px #000;
+    /*border: 1px solid black;*/
+    padding: 15px 40px 15px 25px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 350px;
+}
+.closePopupBtn {
+    background: #fff;
+    border: none;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.popupMessage {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 15px 10px 12px;
+}
